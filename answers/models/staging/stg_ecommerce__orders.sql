@@ -23,4 +23,4 @@ SELECT
 		- gender
 	#}
 
-FROM source
+FROM sourceanswers\models\staging\stg_ecommerce__orders.sql
