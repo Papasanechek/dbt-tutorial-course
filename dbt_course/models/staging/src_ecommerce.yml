@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: thelook_ecommerce
+    database: project-1fc19e55-3bbb-48ab-830
+    tables:
+      - name: inventory_items
+      - name: order_items
+      - name: orders
+      - name: products
+      - name: users
