@@ -4,6 +4,8 @@ models:
   - name: orders
     description: "Table of order level information"
     columns:
+      - name: status
+        description: "{{ doc('status') }}"
 
     # Columns from stg_ecommerce__orders
     # We don't test these columns, other than the primary key,
